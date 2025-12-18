@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎄 Secret Santa 2024 🎁</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="snow-container"></div>
+
+  <!-- <h1>🎅 Secret Santa 2024 🎅</h1>
+  <p class="subtitle">Choose your avatar & enter your secret code ✨</p>
+
+  <div class="players">
+    <div class="player" data-player="Alice">🎄<span>Alice</span></div>
+    <div class="player" data-player="Bob">🎁<span>Bob</span></div>
+    <div class="player" data-player="Claire">🎅<span>Claire</span></div>
+    <div class="player" data-player="David">⛄<span>David</span></div>
+    <div class="player" data-player="Emma">❄️<span>Emma</span></div>
+    <div class="player" data-player="Frank">🦌<span>Frank</span></div>
+    <div class="player" data-player="Grace">🔔<span>Grace</span></div>
+    <div class="player" data-player="Henry">🎶<span>Henry</span></div>
+  </div> -->
+
+  <div class="main-content">
+  <h1>🎅 Secret Santa 2025 🎅</h1>
+
+  <p class="subtitle fancy-text">
+    🎄 Nào nào mọi người, ông già Noel hơi tinh nghịch sẽ đến vào <strong>ngày 19 tháng 12</strong> để giao cho mọi người
+    <span class="highlight">món quà ý nghĩa</span> 🎁,<br/>
+    hãy tặng nó nha vì Vinh nghĩ ai cũng có người tặng noel chứ ta, ai cũng biết chứ ta 😌  <br/>
+    <em>(Thật ra Vinh ran-đum nên mọi không chọn được người để tặng đâu, ran-đum thoai 🤡)</em>
+    <br/><br/>
+    💸 <strong>Budget</strong> là tầm <span class="highlight">trên dưới 10€</span> —  
+    10€ thì mình chơi Secret Santa,  
+    chứ đem đi đầu tư thì như <em>muối bỏ biển</em> 🌊  
+    <br/>
+    nhiều tiền thì phải đầu tư <strong>HDPE</strong>, 18 tỷ đem đi đầu tư tuần sau bạn thành 36 hết (Bác kia lói chứ Vinh không lói)
+  </p>
+
+  <div class="players">
+    <div class="player" data-player="Alice">🎄<span>Alice</span></div>
+    <div class="player" data-player="Bob">🎁<span>Bob</span></div>
+    <div class="player" data-player="Claire">🎅<span>Claire</span></div>
+    <div class="player" data-player="David">⛄<span>David</span></div>
+    <div class="player" data-player="Emma">❄️<span>Emma</span></div>
+    <div class="player" data-player="Frank">🦌<span>Frank</span></div>
+    <div class="player" data-player="Grace">🔔<span>Grace</span></div>
+    <div class="player" data-player="Henry">🎶<span>Henry</span></div>
+  </div>
+</div>
+
+
+  <!-- MODAL
+  <div id="modal" class="hidden">
+    <div class="modal-content">
+      <h2 id="modal-title"></h2>
+      <input type="password" id="codeInput" placeholder="Enter your secret code" />
+      <button id="openGift">🎁 Open gift</button>
+      <p id="result"></p>
+      <button id="closeModal">Close</button>
+    </div>
+  </div> -->
+
+<!-- OVERLAY -->
+<div id="modal-overlay" class="hidden"></div>
+
+<!-- MODAL -->
+<div id="modal" class="hidden">
+  <div class="modal-content">
+    <h2 id="modal-title"></h2>
+
+    <input type="text" id="codeInput" placeholder="Enter your secret code" />
+
+    <button id="openGift">🎁 Open gift</button>
+
+    <p id="result"></p>
+
+    <button id="closeModal">Close</button>
+  </div>
+</div>
+
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
