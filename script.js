@@ -24,7 +24,7 @@ document.getElementById("openGift").onclick = () => {
   if (!data || data.player !== currentPlayer) {
     result.style.color = "#ff4d6d";
     result.textContent = `
-      Cho xin con beat số 2 diss khứa
+      Đã nói rồi mà, cho xin con beat số 2 diss khứa
       có cái secret cũng nhập sai này coi 😭`;
     result.style.color = "red";
     return;

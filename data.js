@@ -1,42 +1,42 @@
 const SECRET_DATA = {
-  "ALICE123": {
-    player: "Alice",
-    givesTo: "Bob",
-    message: "Bob ơi, chuẩn bị nhận quà bất ngờ nhé 😆🎁"
+  "vinhchuccacbangiangsinhanlanh": {
+    player: "Vinh",
+    givesTo: "Tú Anh",
+    message: "Vinh tặng chị Tú Anh, chúc Tú Anh trường thọ như hạt dẻ ngâm rượu 🍂"
   },
-  "BOB123": {
-    player: "Bob",
-    givesTo: "Claire",
-    message: "Claire, hy vọng bạn thích quà này 🎄"
+  "dobiettaolaai": {
+    player: "Chi",
+    givesTo: "Nguyên",
+    message: "Chi tặng Nguyên, chúc Nguyên năm mới phát tài phát lộc! 🧧"
   },
-  "CLAIRE123": {
-    player: "Claire",
-    givesTo: "David",
-    message: "David, đừng mở trước Noel nha 😜"
+  "udonbeolovemaymayoidekhong": {
+    player: "Nguyên",
+    givesTo: "Duy",
+    message: "Tặng Duy nhé, món quà nhỏ từ trái tim lớn ❤️"
   },
-  "DAVID123": {
-    player: "David",
-    givesTo: "Emma",
-    message: "Emma, Santa đã giao nhiệm vụ cho mình rồi 🎅"
+  "emnoiduymuathuocroimaihutnhaanh": {
+    player: "Huy",
+    givesTo: "Thục Anh",
+    message: "Tặng Thục Anh nha, Santa đã giao nhiệm vụ cho anh rồi 🎅"
   },
-  "EMMA123": {
-    player: "Emma",
-    givesTo: "Frank",
-    message: "Frank, chúc bạn một Noel thật ấm áp ❄️"
+  "mayoimuadumtaobaothuocnhabimatthoi": {
+    player: "Duy",
+    givesTo: "Chí",
+    message: "Tặng Chí đi tí được mời bia 🍻"
   },
-  "FRANK123": {
-    player: "Frank",
-    givesTo: "Grace",
-    message: "Grace, quà này chắc hợp với bạn lắm 😄"
+  "emoiduynotinhmuathuocdehut": {
+    player: "Thục Anh",
+    givesTo: "Vinh",
+    message: "Tặng Vinh nhé, chúc Vinh năm mới an khang thịnh vượng! 🐇"
   },
-  "GRACE123": {
-    player: "Grace",
-    givesTo: "Henry",
-    message: "Henry, chuẩn bị bất ngờ nha 🎶"
+  "chioichoemmuon500dibimatnha": {
+    player: "Tú Anh",
+    givesTo: "Chi",
+    message: "Tặng Chi món quà nhỏ, chúc Chi luôn hạnh phúc và may mắn! 🌟"
   },
-  "HENRY123": {
-    player: "Henry",
-    givesTo: "Alice",
-    message: "Alice, vòng tròn đã khép lại 🎄✨"
+  "helloanhemlavinhratvuiduocgapanh": {
+    player: "Chí",
+    givesTo: "Huy",
+    message: "Tặng Huy món quà nhỏ, chúc Huy mọi điều tốt lành! 🎁"
   }
 };
