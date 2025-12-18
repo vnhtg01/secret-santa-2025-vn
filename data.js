@@ -2,7 +2,7 @@ const SECRET_DATA = {
   "vinhchuccacbangiangsinhanlanh": {
     player: "Vinh",
     givesTo: "Tú Anh",
-    message: "Vinh tặng chị Tú Anh, chúc Tú Anh trường thọ như hạt dẻ ngâm rượu 🍂"
+    message: "Vinh tặng Tú Anh, chúc Tú Anh trường thọ như hạt dẻ ngâm rượu 🍂"
   },
   "dobiettaolaai": {
     player: "Chi",
